@@ -27,8 +27,3 @@
 1. ICE持续收集：WebRTC每2s会获取网卡信息，如果发现有更改，会生成新的ICE，没有completed状态
 2. ICE一次收集: WebRTC只收集一次ICE，结束时会有completed状态
 
-### 存在问题
-#### Android UDP bind失败问题
-- 如果频繁开关移动网络，会导致该问题
-- 该问题Android端特有的，IOS没有碰到该问题
-- 类似问题见https://bugs.chromium.org/p/webrtc/issues/detail?id=4356
