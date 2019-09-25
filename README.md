@@ -27,3 +27,5 @@
 1. ICE持续收集：WebRTC每2s会获取网卡信息，如果发现有更改，会生成新的ICE，没有completed状态
 2. ICE一次收集: WebRTC只收集一次ICE，结束时会有completed状态
 
+### 参考
+- RFC5245 - ICE

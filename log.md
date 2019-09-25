@@ -28,3 +28,7 @@
 - network_id:见Net中的id
 - network_cost
 - generation:见Port中的generation
+
+### Conn
+- 示例:`Conn[b63643f0:audio:Net[rmnet_data0:10.15.25.x/29:Cellular:id=3]:rmibvgOR:1:0:prflx:udp:1.86.42.x:22309->TssKpYW1:1:41885695:relay:udp:39.97.72.x:50171|CRxI|-|0|0|179897693902749183|95]`
+- 解释:`Conn[<ToDebugId>:<content_name>:<网卡信息>:<local.id>:<component>:<generation>:<type>:<protocol>:<IP+port>-><remote.id>:<remote.component>:<remote.priority>:<remote.type>:<remote.protocol>:<remote IP+port>|CRxI|-|0|0|179897693902749183|95]`
